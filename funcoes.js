@@ -23,7 +23,7 @@ export function ApresentarContasMatematicas() {
 ❌ Sair............... 8
 
 Digite sua conta e eu resolvo rapidinho! 😄
---------------------------------------------------------------------------`;
+--------------------------------------------------------------------------\n\n`;
 }
 
 // Esperar X milissegundos
@@ -40,8 +40,8 @@ export function esperar(ms) {
 export function Pedindoaconta(){
     let opcoes = 0;
     while(opcoes!= 8){
-    console.log(`--------------------------------------------------------------------------
-👩‍🏫 Qual cálculo iremos resolver? (por exemplo: 1 = Adição)
+    console.log(`\n\n\n--------------------------------------------------------------------------
+👩‍🏫 Qual cálculo iremos resolver? (por exemplo: 1 = Adição)\n
 ❌ Sair............... 8
 --------------------------------------------------------------------------`);
      opcoes = ler();
@@ -92,7 +92,7 @@ export function Pedindoaconta(){
     }
 
     //Divisão
-    if(opcoes == 3){
+    if(opcoes == 4){
         console.log(`--------------------------------------------------------------------------
             Daora! iremos dividir quais números?
 --------------------------------------------------------------------------`);
@@ -107,7 +107,7 @@ export function Pedindoaconta(){
     }
 
     //Potencia
-    if(opcoes == 4){
+    if(opcoes == 5){
         console.log(`--------------------------------------------------------------------------
             Daora! Quais vão ser os números?
 --------------------------------------------------------------------------`);
@@ -122,7 +122,7 @@ export function Pedindoaconta(){
     }
 
     //Raiz Quadrada
-    if(opcoes == 5){
+    if(opcoes == 6){
         console.log(`--------------------------------------------------------------------------
             Daora! iremos dividir quais números?
 --------------------------------------------------------------------------`);
@@ -134,7 +134,7 @@ export function Pedindoaconta(){
     }
 
     //Porcentagem
-    if(opcoes == 5){
+    if(opcoes == 7){
         console.log(`--------------------------------------------------------------------------
             Daora! Qual a porcentagem do número que iremos descobrir?
 --------------------------------------------------------------------------`);
